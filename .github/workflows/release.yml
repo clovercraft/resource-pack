@@ -2,6 +2,8 @@ name: Create Release
 
 on:
   push:
+    branch:
+      [ 'production' ]
     tags:
       - 'v*'
   workflow_dispatch:
@@ -11,13 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build Pack
+        uses: Sorrowfall/Resource-Packager@main
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          draft: false
-          prerelease: false
+          parts:
+            pack/
+          name: Clovercraft Resource Pack
+          output-directory: build
+          optimize-jsons: true
