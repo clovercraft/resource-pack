@@ -1,0 +1,38 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_nugget"
+    },
+    "overrides": [
+        { 
+            "predicate": { 
+                "custom_model_data": 1
+            }, 
+            "model": "item/cities/noden/helm" 
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/cities/eldershire/helm"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/cities/arcadia/robe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "item/cities/aescland/helm"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "item/cities/aescland/skylesshelm"
+        }
+    ]
+}
