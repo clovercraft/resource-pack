@@ -13,11 +13,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Build Pack
-        uses: Sorrowfall/Resource-Packager@main
+      - name: Use Node.js
+        uses: actions/setup-node@v3
         with:
-          parts:
-            pack/
-          name: Clovercraft Resource Pack
-          output-directory: build
-          optimize-jsons: true
+          node-version:  17.x
+      - name: install dependencies
+        run: npm install --prefix ./bin
+      - name: Build Pack
+        run: node bin/build.js
+      - name: Create release
+        run: node bin/release.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

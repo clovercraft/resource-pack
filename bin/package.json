@@ -4,6 +4,7 @@
   "description": "Builds a resource pack",
   "main": "index.js",
   "scripts": {
+    "build": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/clovercraft/resource-pack#readme",
   "dependencies": {
-    "archiver": "^5.3.1"
+    "@octokit/core": "^4.0.4",
+    "archiver": "^5.3.1",
+    "dotenv": "^16.0.1",
+    "path": "^0.12.7"
   }
 }
