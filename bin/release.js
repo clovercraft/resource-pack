@@ -2,7 +2,7 @@ const { MCPackReleaser } = require('./src/releaser')
 
 require('dotenv').config({ path: `${__dirname}/.env`})
 
-const releaser = new MCPackReleaser( 'build/ResourcePack.zip', process.env.GITHUB_TOKEN )
+const releaser = new MCPackReleaser( 'build/ResourcePack.zip', process.env )
 
 releaser.create().then(() => {
     releaser.upload().then((upload) => {

@@ -4,16 +4,17 @@ const { Octokit } = require("@octokit/core")
 
 class Releaser {
 
-    constructor( filepath = '', token )
+    constructor( filepath = '', env )
     {
-        this.token = token
+        this.token = env.GITHUB_TOKEN
+        this.tag = env.TAG
         this.octokit = new Octokit( { auth: token } )
         this.resource = path.resolve( filepath )
     }
 
     async create()
     {
-        const newTag = await this.getNewReleaseName()
+        const newTag = this.tag
         const release = await this.api(
             'POST',
             '/repos/{owner}/{repo}/releases',
@@ -73,28 +74,6 @@ class Releaser {
         }
         
         return response.data
-    }
-
-    async getNewReleaseName()
-    {
-        const releases = await this.api(
-            'GET',
-            '/repos/{owner}/{repo}/releases', {
-                owner: 'clovercraft',
-                repo: 'resource-pack'
-            }
-        )
-        if( releases.length === 0 ) {
-            return 'v1.0'
-        }
-
-        let version = releases[ releases.length - 1 ]
-            .tag_name
-            .replace('v','')
-            .split('.')
-        
-        version[ version.length -1 ] = parseInt(version[ version.length -1 ] ) + 1
-        return `v${version.join('.')}`
     }
 }
 

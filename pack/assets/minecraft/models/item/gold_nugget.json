@@ -1,0 +1,92 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/gold_nugget"
+    },
+    "overrides": [
+        { 
+            "predicate": { 
+                "custom_model_data": 1
+            }, 
+            "model": "item/golfball/golfball_black" 
+        },
+        { 
+            "predicate": { 
+                "custom_model_data": 2
+            }, 
+            "model": "item/golfball/golfball_blue"
+        },
+        { 
+            "predicate": { 
+                "custom_model_data": 3
+            }, 
+            "model": "item/golfball/golfball_cyan" 
+        },
+        { 
+            "predicate": { 
+                "custom_model_data": 4
+            }, 
+            "model": "item/golfball/golfball_gray" 
+        },
+        { 
+            "predicate": { 
+                "custom_model_data": 5
+            }, 
+            "model": "item/golfball/golfball_green" 
+        },
+        { 
+            "predicate": { 
+                "custom_model_data": 6
+            }, 
+            "model": "item/golfball/golfball_light_blue" 
+        },
+        { 
+            "predicate": { 
+                "custom_model_data": 7
+            }, 
+            "model": "item/golfball/golfball_lime" 
+        },
+        { 
+            "predicate": { 
+                "custom_model_data": 8
+            }, 
+            "model": "item/golfball/golfball_magenta" 
+        },
+        { 
+            "predicate": { 
+                "custom_model_data": 9
+            }, 
+            "model": "item/golfball/golfball_orange" 
+        },
+        { 
+            "predicate": { 
+                "custom_model_data": 10
+            }, 
+            "model": "item/golfball/golfball_pink" 
+        },
+        { 
+            "predicate": { 
+                "custom_model_data": 11
+            }, 
+            "model": "item/golfball/golfball_purple" 
+        },
+        { 
+            "predicate": { 
+                "custom_model_data": 12
+            }, 
+            "model": "item/golfball/golfball_red" 
+        },
+        { 
+            "predicate": { 
+                "custom_model_data": 13
+            }, 
+            "model": "item/golfball/golfball_white" 
+        },
+        { 
+            "predicate": { 
+                "custom_model_data": 14
+            }, 
+            "model": "item/golfball/golfball_yellow" 
+        }
+    ]
+}
