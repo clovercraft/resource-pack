@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('node:path')
+const crypto = require('node:crypto')
 const { Octokit } = require("@octokit/core")
 
 class Releaser {
@@ -49,6 +50,7 @@ class Releaser {
 
     async setBody( string )
     {
+        body = this.appendShaToBody( string )
         let release_url = this.release.url
         let response = await this.api(
             'PATCH',
@@ -57,6 +59,16 @@ class Releaser {
             }
         )
         return response
+    }
+
+    appendShaToBody( body )
+    {
+        const file = fs.readFileSync( this.resource )
+        const hashSum = crypto.createHash('sha1')
+        hashSum.update(file)
+        const sha = hashSum.digest('hex')
+        body += '\n\n Hash: ' + sha
+        return body
     }
 
     async api( method, endpoint, options )
