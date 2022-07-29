@@ -50,12 +50,12 @@ class Releaser {
 
     async setBody( string )
     {
-        body = this.appendShaToBody( string )
+        let body = this.appendShaToBody( string )
         let release_url = this.release.url
         let response = await this.api(
             'PATCH',
             release_url, {
-                body: string
+                body: body
             }
         )
         return response
