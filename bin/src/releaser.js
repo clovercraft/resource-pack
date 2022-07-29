@@ -8,7 +8,7 @@ class Releaser {
     {
         this.token = env.GITHUB_TOKEN
         this.tag = env.TAG
-        this.octokit = new Octokit( { auth: token } )
+        this.octokit = new Octokit( { auth: this.token } )
         this.resource = path.resolve( filepath )
     }
 
