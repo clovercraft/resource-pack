@@ -1,0 +1,6 @@
+{
+    "parent": "item/players/bread_toaster_bowster/toaster_bowster",
+    "textures": {
+        "layer0": "item/players/bread_toaster_bowster/bow_pulling_1"
+    }
+}
