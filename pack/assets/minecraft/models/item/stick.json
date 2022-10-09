@@ -15,6 +15,12 @@
                 "custom_model_data": 2
             },
             "model": "item/player/minette_phylactery"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/player/snarky_pirate_hat"
         }
     ]
 }
