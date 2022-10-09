@@ -1,14 +1,14 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "item/amethyst_shard"
+        "layer0": "item/gold_nugget"
     },
     "overrides": [
         {
             "predicate": {
                 "custom_model_data": 1
             },
-            "model": "item/server/rainbow_shard"
+            "model": "item/player/minette_phylactery"
         }
     ]
 }

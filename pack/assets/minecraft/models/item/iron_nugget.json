@@ -1,116 +1,110 @@
 {
-    "parent": "item/handheld",
+    "parent": "item/server/handheld",
     "textures": {
-        "layer0": "item/iron_nugget"
+        "layer0": "item/server/iron_nugget"
     },
     "overrides": [
         {
             "predicate": {
                 "custom_model_data": 1
             },
-            "model": "item/trophy/bronze"
+            "model": "item/server/trophy/bronze"
         },
         {
             "predicate": {
                 "custom_model_data": 2
             },
-            "model": "item/trophy/silver"
+            "model": "item/server/trophy/silver"
         },
         {
             "predicate": {
                 "custom_model_data": 3
             },
-            "model": "item/trophy/gold"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 11
-            },
-            "model": "item/player/minette_phylactery"
+            "model": "item/server/trophy/gold"
         },
         {
             "predicate": {
                 "custom_model_data": 101
             },
-            "model": "item/golfball/golfball_black"
+            "model": "item/server/golfball/golfball_black"
         },
         {
             "predicate": {
                 "custom_model_data": 102
             },
-            "model": "item/golfball/golfball_blue"
+            "model": "item/server/golfball/golfball_blue"
         },
         {
             "predicate": {
                 "custom_model_data": 103
             },
-            "model": "item/golfball/golfball_cyan"
+            "model": "item/server/golfball/golfball_cyan"
         },
         {
             "predicate": {
                 "custom_model_data": 104
             },
-            "model": "item/golfball/golfball_gray"
+            "model": "item/server/golfball/golfball_gray"
         },
         {
             "predicate": {
                 "custom_model_data": 105
             },
-            "model": "item/golfball/golfball_green"
+            "model": "item/server/golfball/golfball_green"
         },
         {
             "predicate": {
                 "custom_model_data": 106
             },
-            "model": "item/golfball/golfball_light_blue"
+            "model": "item/server/golfball/golfball_light_blue"
         },
         {
             "predicate": {
                 "custom_model_data": 107
             },
-            "model": "item/golfball/golfball_lime"
+            "model": "item/server/golfball/golfball_lime"
         },
         {
             "predicate": {
                 "custom_model_data": 108
             },
-            "model": "item/golfball/golfball_magenta"
+            "model": "item/server/golfball/golfball_magenta"
         },
         {
             "predicate": {
                 "custom_model_data": 109
             },
-            "model": "item/golfball/golfball_orange"
+            "model": "item/server/golfball/golfball_orange"
         },
         {
             "predicate": {
                 "custom_model_data": 110
             },
-            "model": "item/golfball/golfball_pink"
+            "model": "item/server/golfball/golfball_pink"
         },
         {
             "predicate": {
                 "custom_model_data": 111
             },
-            "model": "item/golfball/golfball_purple"
+            "model": "item/server/golfball/golfball_purple"
         },
         {
             "predicate": {
                 "custom_model_data": 112
             },
-            "model": "item/golfball/golfball_red"
+            "model": "item/server/golfball/golfball_red"
         },
         {
             "predicate": {
                 "custom_model_data": 113
             },
-            "model": "item/golfball/golfball_white"
+            "model": "item/server/golfball/golfball_white"
         },
         {
             "predicate": {
                 "custom_model_data": 114
             },
-            "model": "item/golfball/golfball_yellow"
+            "model": "item/server/golfball/golfball_yellow"
         }
     ]
 }

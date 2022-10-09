@@ -8,7 +8,7 @@
       "predicate": {
         "custom_model_data": 1
       },
-      "model": "item/echo_pick"
+      "model": "item/server/echo_pick"
     }
   ]
 }
