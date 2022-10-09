@@ -9,6 +9,12 @@
                 "custom_model_data": 1
             },
             "model": "item/player/snarky_pirate_hat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/player/minette_litch_crown"
         }
     ]
 }
