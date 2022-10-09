@@ -5,17 +5,14 @@ const { Octokit } = require("@octokit/core")
 
 class Releaser {
 
-    constructor( filepath = '', env )
-    {
+    constructor(filepath = '', env) {
         this.token = env.GITHUB_TOKEN
-        this.tag = env.TAG
-        this.octokit = new Octokit( { auth: this.token } )
-        this.resource = path.resolve( filepath )
+        this.octokit = new Octokit({ auth: this.token })
+        this.resource = path.resolve(filepath)
     }
 
-    async create()
-    {
-        const newTag = this.tag
+    async create() {
+        const newTag = await this.getTag()
         const release = await this.api(
             'POST',
             '/repos/{owner}/{repo}/releases',
@@ -34,36 +31,33 @@ class Releaser {
         return release
     }
 
-    async upload()
-    {
+    async upload() {
         let upload_url = this.release.upload_url
         let response = await this.api(
             'POST',
             upload_url,
             {
                 name: 'ResourcePack.zip',
-                data: fs.readFileSync( this.resource )
+                data: fs.readFileSync(this.resource)
             }
         )
         return response
     }
 
-    async setBody( string )
-    {
-        let body = this.appendShaToBody( string )
+    async setBody(string) {
+        let body = this.appendShaToBody(string)
         let release_url = this.release.url
         let response = await this.api(
             'PATCH',
             release_url, {
-                body: body
-            }
+            body: body
+        }
         )
         return response
     }
 
-    appendShaToBody( body )
-    {
-        const file = fs.readFileSync( this.resource )
+    appendShaToBody(body) {
+        const file = fs.readFileSync(this.resource)
         const hashSum = crypto.createHash('sha1')
         hashSum.update(file)
         const sha = hashSum.digest('hex')
@@ -71,20 +65,33 @@ class Releaser {
         return body
     }
 
-    async api( method, endpoint, options )
-    {
+    async getTag() {
+        let response = await this.api(
+            'GET',
+            '/repos/{owner}/{repo}/tags',
+            {
+                owner: 'clovercraft',
+                repo: 'resource-pack',
+            }
+        )
+        let latest = response[0].name.split('.');
+        latest[latest.length - 1]++
+        return latest.join('.')
+    }
+
+    async api(method, endpoint, options) {
         options.url = endpoint
         options.method = method
         options.headers = {
             authorization: `token ${this.token}`
         }
-        let response = await this.octokit.request( options )
-        
-        if( response.status >= 300 ) {
-            console.error( response )
-            throw new Error( 'API request failed.')
+        let response = await this.octokit.request(options)
+
+        if (response.status >= 300) {
+            console.error(response)
+            throw new Error('API request failed.')
         }
-        
+
         return response.data
     }
 }
