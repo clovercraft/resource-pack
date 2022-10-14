@@ -1,7 +1,7 @@
 {
-    "parent": "item/server/handheld",
+    "parent": "minecraft:item/handheld",
     "textures": {
-        "layer0": "item/server/iron_nugget"
+        "layer0": "minecraft:item/iron_nugget"
     },
     "overrides": [
         {
