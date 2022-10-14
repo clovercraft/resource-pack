@@ -24,6 +24,24 @@
         },
         {
             "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "item/player/snarky_pirate_hat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "item/player/minette_litch_crown"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "item/player/minette_phylactery"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 101
             },
             "model": "item/server/golfball/golfball_black"
