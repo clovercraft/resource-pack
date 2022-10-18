@@ -48,6 +48,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "item/server/grayhelm_helmet"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 101
             },
             "model": "item/server/golfball/golfball_black"

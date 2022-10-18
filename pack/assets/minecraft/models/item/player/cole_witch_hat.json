@@ -193,8 +193,8 @@
 		},
 		"head": {
 			"rotation": [20, 0, 0],
-			"translation": [-0.25, 13.5, 4],
-			"scale": [3.25, 3.25, 3.25]
+			"translation": [0, 16, 4.25],
+			"scale": [3.6, 3.6, 3.6]
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],
