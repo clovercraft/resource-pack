@@ -54,6 +54,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 15
+            },
+            "model": "item/server/serpenfurr_crown"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 101
             },
             "model": "item/server/golfball/golfball_black"
