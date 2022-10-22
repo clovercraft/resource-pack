@@ -9,6 +9,12 @@
         "custom_model_data": 1
       },
       "model": "item/server/echo_pick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "item/player/zenfrii_pickaxe"
     }
   ]
 }
