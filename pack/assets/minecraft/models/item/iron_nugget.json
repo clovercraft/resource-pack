@@ -66,6 +66,18 @@
         },
         {
             "predicate": {
+                "custom_model_data": 17
+            },
+            "model": "item/server/halloween/witch_hat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model": "item/server/halloween/tricky_treat"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 101
             },
             "model": "item/server/golfball/golfball_black"
