@@ -78,6 +78,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 19
+            },
+            "model": "item/server/halloween/key"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 101
             },
             "model": "item/server/golfball/golfball_black"
