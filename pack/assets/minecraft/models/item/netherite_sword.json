@@ -15,6 +15,18 @@
                 "custom_model_data": 2
             },
             "model": "item/player/zenfrii_sword"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/player/minette_scythe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "item/player/minette_knife"
         }
     ]
 }
