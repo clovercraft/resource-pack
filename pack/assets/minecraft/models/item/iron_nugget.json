@@ -90,6 +90,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 21
+            },
+            "model": "item/player/cole_wand"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 101
             },
             "model": "item/server/golfball/golfball_black"
