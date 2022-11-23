@@ -84,6 +84,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 20
+            },
+            "model": "item/player/roo_goggles"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 101
             },
             "model": "item/server/golfball/golfball_black"
