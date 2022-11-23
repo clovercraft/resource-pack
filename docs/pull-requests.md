@@ -21,8 +21,8 @@ This will send a notification to Zenfrii (Martin) that there are new changes to 
 
 ## Directory
 
-- [Custom Items Overview](./custom-items.md)
-    - [Custom Item Rules](./adding-items/rules.md)
-    - [File Structure](./adding-items/files.md)
-    - [Setting up your Development Environment](./adding-items/setup.md)
-    - [Adding Items](./adding-items/adding-items.md)
+- [Custom Items Overview](custom-items.md)
+    - [Custom Item Rules](adding-items/rules.md)
+    - [File Structure](adding-items/files.md)
+    - [Setting up your Development Environment](adding-items/setup.md)
+    - [Adding Items](adding-items/adding-items.md)

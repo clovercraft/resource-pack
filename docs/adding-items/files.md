@@ -53,4 +53,4 @@ If a model has more than one texture, you can create a folder for those textures
 - Model: `./pack/assets/minecraft/models/item/player/minette_litch_crown.json`
 - Textures: `./pack/assets/minecraft/textures/item/players/minette_litchhat/`
 
-## Next: [Adding Items](./adding-items.md)
+## Next: [Adding Items](adding-items.md)

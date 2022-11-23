@@ -2,7 +2,7 @@
 
 Adding custom items is relatively straight forward. Changes **cannot** be committed directly to the `production` branch, so all changes must be done within feature, patch, or bugfix branches.
 
-If you're familiar with git-cli, you can do this using commands. The directions below assume you are using the tools listed in [adding items](../adding-items.md).
+If you're familiar with git-cli, you can do this using commands. The directions below assume you are using the tools listed in [the overview](../custom-items.md).
 
 ## Branch naming convention & Creating Branches
 
@@ -29,9 +29,9 @@ This project uses a specific branch naming convention to help keep development o
 
 ### Exporting the Model
 1. Open the model file in BlockBench.
-2. In the `Textures` pannel, save each individual texture in an appropriate location within the resource pack, following the [guidelines for file names](./files.md).
+2. In the `Textures` pannel, save each individual texture in an appropriate location within the resource pack, following the [guidelines for file names](files.md).
 3. Once you've saved the textures, go to `File > Export > Export Block/Item Model` in the application menu.
-4. Save the model `.json` file in an appropriate location within the resource pack, following the [guidelines for file names](./files.md).
+4. Save the model `.json` file in an appropriate location within the resource pack, following the [guidelines for file names](files.md).
 
 ### Mapping the Base Item
 1. In GitHub Desktop, click the "Open in Visual Studio Code" button. This will launch the project in VS Code, our default editor.
