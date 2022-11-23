@@ -68,4 +68,4 @@ This project uses a specific branch naming convention to help keep development o
     1. Check to make sure the textures you saved from BlockBench have been saved to the correct location within the resource pack.
     2. Update the values for the texture entries on the model to match the appropriate path.
 
-## Next: [Submitting Changes for Review](./pull-requests.md)
+## Next: [Submitting Changes for Review](../pull-requests.md)
