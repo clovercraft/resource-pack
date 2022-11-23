@@ -19,5 +19,5 @@ resource-pack-sha1=[HASH for the latest release]
 
 If you'd like to contribute to this resource pack, you'll need to be a member of the Clovercraft developers group. You are welcome to make changes as you wish, but all updates must recieve final approval from Zenfrii.
 
- - [Adding custom items](/docs/adding-items.md)
+ - [Adding custom items](/docs/custom-items.md)
  - [Submitting updates](/docs/pull-requests.md)
