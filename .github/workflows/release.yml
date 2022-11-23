@@ -2,11 +2,12 @@ name: Create Release
 
 on:
   push:
-    push:
+    pull_request:
+      types:
+        - closed
       branches:
-        - 'production'
+        - production
   workflow_dispatch:
-
 jobs:
   build:
     if: github.event_name != 'pull_request'
