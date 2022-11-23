@@ -9,4 +9,4 @@
 - If an item is not kit-specific to a given user, it must be made available to all players
 - Firearms and other potentially triggering tools are not allowed
 
-## Next: [Setting up your Development Environment](./setup.md)
+## Next: [Setting up your Development Environment](setup.md)
