@@ -49,8 +49,8 @@ Server files should be named following the `{item_name}` format, with the approp
 
 ### Multiple Texture Items
 
-If a model has more than one texture, you can create a folder for those textures in the appropriate directory. For example, Minette's Litch Hat has multiple textures. You can find the relevant files in these locations
-- Model: `./pack/assets/minecraft/models/item/player/minette_litch_crown.json`
-- Textures: `./pack/assets/minecraft/textures/item/players/minette_litchhat/`
+If a model has more than one texture, you can create a folder for those textures in the appropriate directory. For example, Minette's Lich Hat has multiple textures. You can find the relevant files in these locations
+- Model: `./pack/assets/minecraft/models/item/player/minette_lich_crown.json`
+- Textures: `./pack/assets/minecraft/textures/item/players/minette_lichhat/`
 
 ## Next: [Adding Items](adding-items.md)
