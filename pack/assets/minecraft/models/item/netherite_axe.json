@@ -15,6 +15,12 @@
                 "custom_model_data": 2
             },
             "model": "item/player/minette_axe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/server/serpenfurr/axe"
         }
     ]
 }

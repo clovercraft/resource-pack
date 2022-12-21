@@ -27,6 +27,12 @@
                 "custom_model_data": 4
             },
             "model": "item/player/minette_knife"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "item/server/serpenfurr/sword"
         }
     ]
 }
