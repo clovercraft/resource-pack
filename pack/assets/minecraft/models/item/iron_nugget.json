@@ -96,6 +96,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 22
+            },
+            "model": "item/server/warp_glyph"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 101
             },
             "model": "item/server/golfball/golfball_black"
