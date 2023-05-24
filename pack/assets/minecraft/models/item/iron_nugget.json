@@ -102,6 +102,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 23
+            },
+            "model": "item/server/smiley_buck"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 101
             },
             "model": "item/server/golfball/golfball_black"
