@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/template_spawn_egg",
+	"overrides":[
+		{"predicate": {"custom_model_data":1001}, "model": "diamond_bird:duckplushi"},
+		{"predicate": {"custom_model_data":1002}, "model": "diamond_bird:flamingoplushie"},
+		{"predicate": {"custom_model_data":1003}, "model": "diamond_bird:babyplushi"}
+		]
+
+
+
+
+
+
+}

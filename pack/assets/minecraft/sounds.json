@@ -1,0 +1,8 @@
+{
+   "birdpack.goose.honk" : {"sounds":["honk"]},
+   "birdpack.crane.chirp" : {"sounds":["crane1"]},  
+   "birdpack.bluejay.chirp" : {"sounds":["bluejay1","bluejay2"]},
+   "birdpack.toucan.chirp" : {"sounds":["toucan1","toucan2"]},
+   "birdpack.flamingo.chirp" : {"sounds":["flamingo1","flamingo2"]},
+   "birdpack.owl.who" : {"sounds":["who1","who2"]}
+}
