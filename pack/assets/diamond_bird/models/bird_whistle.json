@@ -1,74 +1,268 @@
 {
 	"credit": "Made with Blockbench",
-	"texture_size": [32, 32],
+	"texture_size": [
+		32,
+		32
+	],
 	"textures": {
-		"0": "diamond_bird:whistle"
+		"0": "diamond_bird:item/whistle"
 	},
 	"elements": [
 		{
-			"from": [7.1, 0, 6.3],
-			"to": [8, 0.6, 10.8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"from": [
+				7.1,
+				0,
+				6.3
+			],
+			"to": [
+				8,
+				0.6,
+				10.8
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					0,
+					8
+				]
+			},
 			"faces": {
-				"north": {"uv": [3, 2, 4.5, 3], "texture": "#0"},
-				"east": {"uv": [3, 0, 10.5, 1], "texture": "#0"},
-				"south": {"uv": [3, 3, 4.5, 4], "texture": "#0"},
-				"west": {"uv": [3, 1, 10.5, 2], "texture": "#0"},
-				"up": {"uv": [1.5, 7.5, 0, 0], "texture": "#0"},
-				"down": {"uv": [3, 0, 1.5, 7.5], "texture": "#0"}
+				"north": {
+					"uv": [
+						3,
+						2,
+						4.5,
+						3
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						3,
+						0,
+						10.5,
+						1
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						3,
+						3,
+						4.5,
+						4
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						3,
+						1,
+						10.5,
+						2
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						1.5,
+						7.5,
+						0,
+						0
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						3,
+						0,
+						1.5,
+						7.5
+					],
+					"texture": "#0"
+				}
 			}
 		},
 		{
-			"from": [7.1, 0.3, 6],
-			"to": [8, 0.6, 6.3],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"from": [
+				7.1,
+				0.3,
+				6
+			],
+			"to": [
+				8,
+				0.6,
+				6.3
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					0,
+					8
+				]
+			},
 			"faces": {
-				"north": {"uv": [3, 4, 4.5, 4.5], "texture": "#0"},
-				"east": {"uv": [4.5, 3, 5, 3.5], "texture": "#0"},
-				"south": {"uv": [4.5, 2, 6, 2.5], "texture": "#0"},
-				"west": {"uv": [4.5, 3.5, 5, 4], "texture": "#0"},
-				"up": {"uv": [6, 3, 4.5, 2.5], "texture": "#0"},
-				"down": {"uv": [4.5, 4.5, 3, 5], "texture": "#0"}
+				"north": {
+					"uv": [
+						3,
+						4,
+						4.5,
+						4.5
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						4.5,
+						3,
+						5,
+						3.5
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						4.5,
+						2,
+						6,
+						2.5
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						4.5,
+						3.5,
+						5,
+						4
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						6,
+						3,
+						4.5,
+						2.5
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						4.5,
+						4.5,
+						3,
+						5
+					],
+					"texture": "#0"
+				}
 			}
 		}
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0.5, 7.75, 0]
+			"translation": [
+				0.5,
+				7.75,
+				0
+			]
 		},
 		"thirdperson_lefthand": {
-			"translation": [-0.5, 7.75, 0]
+			"translation": [
+				-0.5,
+				7.75,
+				0
+			]
 		},
 		"firstperson_righthand": {
-			"translation": [1.25, 8.25, -2.5],
-			"scale": [1.1, 1.1, 1.1]
+			"translation": [
+				1.25,
+				8.25,
+				-2.5
+			],
+			"scale": [
+				1.1,
+				1.1,
+				1.1
+			]
 		},
 		"firstperson_lefthand": {
-			"translation": [-1.5, 8.75, -0.5]
+			"translation": [
+				-1.5,
+				8.75,
+				-0.5
+			]
 		},
 		"ground": {
-			"translation": [0.75, 6, 0],
-			"scale": [1.2, 1.2, 1.2]
+			"translation": [
+				0.75,
+				6,
+				0
+			],
+			"scale": [
+				1.2,
+				1.2,
+				1.2
+			]
 		},
 		"gui": {
-			"rotation": [21, -28, 0],
-			"translation": [2.25, 28.75, 0],
-			"scale": [4, 4, 4]
+			"rotation": [
+				21,
+				-28,
+				0
+			],
+			"translation": [
+				2.25,
+				28.75,
+				0
+			],
+			"scale": [
+				4,
+				4,
+				4
+			]
 		},
 		"head": {
-			"translation": [0, -2.25, 0]
+			"translation": [
+				0,
+				-2.25,
+				0
+			]
 		},
 		"fixed": {
-			"rotation": [-90, 0, 0],
-			"translation": [1.5, -0.75, -23.75],
-			"scale": [3, 3, 3]
+			"rotation": [
+				-90,
+				0,
+				0
+			],
+			"translation": [
+				1.5,
+				-0.75,
+				-23.75
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
 		}
 	},
 	"groups": [
 		{
 			"name": "Whistle",
-			"origin": [0, 0, 0],
-			"children": [0, 1]
+			"origin": [
+				0,
+				0,
+				0
+			],
+			"children": [
+				0,
+				1
+			]
 		}
 	]
 }

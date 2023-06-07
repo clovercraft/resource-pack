@@ -1,22 +1,92 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/paper"
-    },
-	"overrides":[
-		{"predicate": {"custom_model_data":1001}, "model": "diamond_bird:goose_feather"},
-		{"predicate": {"custom_model_data":1002}, "model": "diamond_bird:bhb_feather"},
-		{"predicate": {"custom_model_data":1003}, "model": "diamond_bird:bwhb_feather"},
-		{"predicate": {"custom_model_data":1004}, "model": "diamond_bird:ghb_feather"},
-		{"predicate": {"custom_model_data":1005}, "model": "diamond_bird:rhb_feather"},
-		{"predicate": {"custom_model_data":1006}, "model": "diamond_bird:bluejay_feather"},		
-		{"predicate": {"custom_model_data":1007}, "model": "diamond_bird:bird_whistle"},
-		{"predicate": {"custom_model_data":1008}, "model": "diamond_bird:canadiangoose_feather"},
-		{"predicate": {"custom_model_data":1009}, "model": "diamond_bird:crane_feather"},
-		{"predicate": {"custom_model_data":1010}, "model": "diamond_bird:owl_feather"},
-		{"predicate": {"custom_model_data":1011}, "model": "diamond_bird:peacock_feather"},
-		{"predicate": {"custom_model_data":1012}, "model": "diamond_bird:pelican_feather"},
-		{"predicate": {"custom_model_data":1013}, "model": "diamond_bird:toucanfeather"},
-		{"predicate": {"custom_model_data":1014}, "model": "diamond_bird:flamingofeather"}
-		]
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/feather"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1001
+			},
+			"model": "diamond_bird:goose_feather"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1002
+			},
+			"model": "diamond_bird:bhb_feather"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1003
+			},
+			"model": "diamond_bird:bwhb_feather"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1004
+			},
+			"model": "diamond_bird:ghb_feather"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1005
+			},
+			"model": "diamond_bird:rhb_feather"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1006
+			},
+			"model": "diamond_bird:bluejay_feather"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1007
+			},
+			"model": "diamond_bird:bird_whistle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1008
+			},
+			"model": "diamond_bird:canadiangoose_feather"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1009
+			},
+			"model": "diamond_bird:crane_feather"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1010
+			},
+			"model": "diamond_bird:owl_feather"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1011
+			},
+			"model": "diamond_bird:peacock_feather"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1012
+			},
+			"model": "diamond_bird:pelican_feather"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1013
+			},
+			"model": "diamond_bird:toucanfeather"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1014
+			},
+			"model": "diamond_bird:flamingofeather"
+		}
+	]
 }
