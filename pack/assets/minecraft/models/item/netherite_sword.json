@@ -4,7 +4,12 @@
         "layer0": "minecraft:item/netherite_sword"
     },
     "overrides": [
-    	{ "predicate": { "custom_model_data": 79560}, "model": "item/ergeox/ergeox_sword" },
+        {
+            "predicate": {
+                "custom_model_data": 79560
+            },
+            "model": "item/ergeox/ergeox_sword"
+        },
         {
             "predicate": {
                 "custom_model_data": 1
@@ -34,6 +39,12 @@
                 "custom_model_data": 5
             },
             "model": "item/server/serpenfurr/sword"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "item/server/dungeon/paladinhammer"
         }
     ]
 }
