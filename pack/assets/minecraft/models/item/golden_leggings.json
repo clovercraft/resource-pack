@@ -1,0 +1,163 @@
+{
+	"parent": "minecraft:item/generated",
+	"overrides": [
+	  {
+		"model": "minecraft:item/golden_leggings_rose_trim",
+		"predicate": {
+		  "trim_type": 0.0001
+		}
+	  },
+	  {
+		"model": "minecraft:item/glow/leggings/gold/rose_trim",
+		"predicate": {
+		  "trim_type": 0.001
+		}
+	  },
+	  {
+		"model": "minecraft:item/glow/leggings/gold/iron_trim",
+		"predicate": {
+		  "trim_type": 0.002
+		}
+	  },
+	  {
+		"model": "minecraft:item/glow/leggings/gold/netherite_trim",
+		"predicate": {
+		  "trim_type": 0.003
+		}
+	  },
+	  {
+		"model": "minecraft:item/glow/leggings/gold/redstone_trim",
+		"predicate": {
+		  "trim_type": 0.004
+		}
+	  },
+	  {
+		"model": "minecraft:item/glow/leggings/gold/copper_trim",
+		"predicate": {
+		  "trim_type": 0.005
+		}
+	  },
+	  {
+		"model": "minecraft:item/glow/leggings/gold/gold_darker_trim",
+		"predicate": {
+		  "trim_type": 0.006
+		}
+	  },
+	  {
+		"model": "minecraft:item/glow/leggings/gold/emerald_trim",
+		"predicate": {
+		  "trim_type": 0.007
+		}
+	  },
+	  {
+		"model": "minecraft:item/glow/leggings/gold/diamond_trim",
+		"predicate": {
+		  "trim_type": 0.008
+		}
+	  },
+	  {
+		"model": "minecraft:item/glow/leggings/gold/lapis_trim",
+		"predicate": {
+		  "trim_type": 0.009
+		}
+	  },
+	  {
+		"model": "minecraft:item/glow/leggings/gold/amethyst_trim",
+		"predicate": {
+		  "trim_type": 0.010
+		}
+	  },
+	  {
+		"model": "minecraft:item/glow/leggings/gold/quartz_trim",
+		"predicate": {
+		  "trim_type": 0.011
+		}
+	  },
+	  {
+		"model": "minecraft:item/golden_leggings_quartz_trim",
+		"predicate": {
+		  "trim_type": 0.1
+		}
+	  },
+	  {
+		"model": "minecraft:item/golden_leggings_iron_trim",
+		"predicate": {
+		  "trim_type": 0.2
+		}
+	  },
+	  {
+		"model": "minecraft:item/golden_leggings_netherite_trim",
+		"predicate": {
+		  "trim_type": 0.3
+		}
+	  },
+	  {
+		"model": "minecraft:item/golden_leggings_redstone_trim",
+		"predicate": {
+		  "trim_type": 0.4
+		}
+	  },
+	  {
+		"model": "minecraft:item/golden_leggings_copper_trim",
+		"predicate": {
+		  "trim_type": 0.5
+		}
+	  },
+	  {
+		"model": "minecraft:item/golden_leggings_gold_darker_trim",
+		"predicate": {
+		  "trim_type": 0.6
+		}
+	  },
+	  {
+		"model": "minecraft:item/golden_leggings_emerald_trim",
+		"predicate": {
+		  "trim_type": 0.7
+		}
+	  },
+	  {
+		"model": "minecraft:item/golden_leggings_diamond_trim",
+		"predicate": {
+		  "trim_type": 0.8
+		}
+	  },
+	  {
+		"model": "minecraft:item/golden_leggings_lapis_trim",
+		"predicate": {
+		  "trim_type": 0.9
+		}
+	  },
+	  {
+		"model": "minecraft:item/golden_leggings_amethyst_trim",
+		"predicate": {
+		  "trim_type": 1.0
+		}
+	  },
+	  { "predicate": { "custom_model_data": 91232}, "model": "item/golden_leggings/rose_gold" },  
+	  { "predicate": {"trim_type": 0.0001 , "custom_model_data": 91232},"model": "item/golden_leggings/rose_gold/rose_darker_trim"},
+	  { "predicate": {"trim_type": 0.001 , "custom_model_data": 91232},"model": "item/glow/leggings/rose_gold/rose_darker_trim"},
+	  { "predicate": {"trim_type": 0.002 , "custom_model_data": 91232},"model": "item/glow/leggings/rose_gold/iron_trim"},
+	  { "predicate": {"trim_type": 0.003 , "custom_model_data": 91232},"model": "item/glow/leggings/rose_gold/netherite_trim"},
+	  { "predicate": {"trim_type": 0.004 , "custom_model_data": 91232},"model": "item/glow/leggings/rose_gold/redstone_trim"},
+	  { "predicate": {"trim_type": 0.005 , "custom_model_data": 91232},"model": "item/glow/leggings/rose_gold/copper_trim"},
+	  { "predicate": {"trim_type": 0.006 , "custom_model_data": 91232},"model": "item/glow/leggings/rose_gold/gold_trim"},
+	  { "predicate": {"trim_type": 0.007 , "custom_model_data": 91232},"model": "item/glow/leggings/rose_gold/emerald_trim"},
+	  { "predicate": {"trim_type": 0.008 , "custom_model_data": 91232},"model": "item/glow/leggings/rose_gold/diamond_trim"},
+	  { "predicate": {"trim_type": 0.009 , "custom_model_data": 91232},"model": "item/glow/leggings/rose_gold/lapis_trim"},
+	  { "predicate": {"trim_type": 0.010 , "custom_model_data": 91232},"model": "item/glow/leggings/rose_gold/amethyst_trim"},
+	  { "predicate": {"trim_type": 0.011 , "custom_model_data": 91232},"model": "item/glow/leggings/rose_gold/quartz_trim"},
+	  { "predicate": {"trim_type": 0.1 , "custom_model_data": 91232},"model": "item/golden_leggings/rose_gold/quartz_trim"},
+	  { "predicate": {"trim_type": 0.2 , "custom_model_data": 91232},"model": "item/golden_leggings/rose_gold/iron_trim"},
+	  { "predicate": {"trim_type": 0.3 , "custom_model_data": 91232},"model": "item/golden_leggings/rose_gold/netherite_trim"},
+	  { "predicate": {"trim_type": 0.4 , "custom_model_data": 91232},"model": "item/golden_leggings/rose_gold/redstone_trim"},
+	  { "predicate": {"trim_type": 0.5 , "custom_model_data": 91232},"model": "item/golden_leggings/rose_gold/copper_trim"},
+	  { "predicate": {"trim_type": 0.6 , "custom_model_data": 91232},"model": "item/golden_leggings/rose_gold/gold_trim"},
+	  { "predicate": {"trim_type": 0.7 , "custom_model_data": 91232},"model": "item/golden_leggings/rose_gold/emerald_trim"},
+	  { "predicate": {"trim_type": 0.8 , "custom_model_data": 91232},"model": "item/golden_leggings/rose_gold/diamond_trim"},
+	  { "predicate": {"trim_type": 0.9 , "custom_model_data": 91232},"model": "item/golden_leggings/rose_gold/lapis_trim"},
+	  { "predicate": {"trim_type": 1.0 , "custom_model_data": 91232},"model": "item/golden_leggings/rose_gold/amethyst_trim"}
+	],
+	"textures": {
+	  "layer0": "minecraft:item/golden_leggings"
+	}
+  }
