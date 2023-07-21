@@ -2,5 +2,18 @@
   "menu.returnToGame": "Back to \u00a7aClovercraft SMP",
   "menu.disconnect": "Take a break",
   "menu.shareToLan": "\u00A72Praise Goose!",
-  "menu.game": "\uE000"
+  "menu.game": "\uE000",
+  "trim_material.minecraft.glowing_amethyst": "Glowing Amethyst Material",
+  "trim_material.minecraft.glowing_copper": "Glowing Copper Material",
+  "trim_material.minecraft.glowing_diamond": "Glowing Diamond Material",
+  "trim_material.minecraft.glowing_emerald": "Glowing Emerald Material",
+  "trim_material.minecraft.glowing_gold": "Glowing Gold Material",
+  "trim_material.minecraft.glowing_iron": "Glowing Iron Material",
+  "trim_material.minecraft.glowing_lapis": "Glowing Lapis Material",
+  "trim_material.minecraft.glowing_netherite": "Glowing Netherite Material",
+  "trim_material.minecraft.glowing_quartz": "Glowing Quartz Material",
+  "trim_material.minecraft.glowing_redstone": "Glowing Redstone Material",
+  "trim_material.minecraft.glowing_rose": "Glowing Rose Gold Material",
+  "advancements.adventure.glowing.title": "Make it Glow!",
+  "advancements.adventure.glowing.description": "Make a piece of armor glow"
 }
