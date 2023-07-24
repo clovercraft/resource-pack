@@ -1,0 +1,137 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/crossbow"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "item/elitecreatures/electrofield_crossbow"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"custom_model_data": 1
+			},
+			"model": "item/elitecreatures/electrofield_crossbow_0"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.45,
+				"custom_model_data": 1
+			},
+			"model": "item/elitecreatures/electrofield_crossbow_1"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.9,
+				"custom_model_data": 1
+			},
+			"model": "item/elitecreatures/electrofield_crossbow_2"
+		},
+		{
+			"predicate": {
+				"arrow": 1,
+				"custom_model_data": 1
+			},
+			"model": "item/elitecreatures/electrofield_crossbow_charged"
+		},
+		{
+			"predicate": {
+				"charged": 1,
+				"custom_model_data": 1
+			},
+			"model": "item/elitecreatures/electrofield_crossbow_charged"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "item/elitecreatures/involved_electrofield_crossbow"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"custom_model_data": 2
+			},
+			"model": "item/elitecreatures/involved_electrofield_crossbow_0"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.45,
+				"custom_model_data": 2
+			},
+			"model": "item/elitecreatures/involved_electrofield_crossbow_1"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.9,
+				"custom_model_data": 2
+			},
+			"model": "item/elitecreatures/involved_electrofield_crossbow_2"
+		},
+		{
+			"predicate": {
+				"arrow": 1,
+				"custom_model_data": 2
+			},
+			"model": "item/elitecreatures/involved_electrofield_crossbow_charged"
+		},
+		{
+			"predicate": {
+				"charged": 1,
+				"custom_model_data": 2
+			},
+			"model": "item/elitecreatures/involved_electrofield_crossbow_charged"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "item/elitecreatures/prestige_electrofield_crossbow"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"custom_model_data": 3
+			},
+			"model": "item/elitecreatures/prestige_electrofield_crossbow_0"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.45,
+				"custom_model_data": 3
+			},
+			"model": "item/elitecreatures/prestige_electrofield_crossbow_1"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.9,
+				"custom_model_data": 3
+			},
+			"model": "item/elitecreatures/prestige_electrofield_crossbow_2"
+		},
+		{
+			"predicate": {
+				"arrow": 1,
+				"custom_model_data": 3
+			},
+			"model": "item/elitecreatures/prestige_electrofield_crossbow_charged"
+		},
+		{
+			"predicate": {
+				"charged": 1,
+				"custom_model_data": 3
+			},
+			"model": "item/elitecreatures/prestige_electrofield_crossbow_charged"
+		}
+	]
+}
