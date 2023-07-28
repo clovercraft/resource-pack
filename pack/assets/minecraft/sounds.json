@@ -1,8 +1,61 @@
 {
-   "birdpack.goose.honk" : {"sounds":["honk"]},
-   "birdpack.crane.chirp" : {"sounds":["crane1"]},  
-   "birdpack.bluejay.chirp" : {"sounds":["bluejay1","bluejay2"]},
-   "birdpack.toucan.chirp" : {"sounds":["toucan1","toucan2"]},
-   "birdpack.flamingo.chirp" : {"sounds":["flamingo1","flamingo2"]},
-   "birdpack.owl.who" : {"sounds":["who1","who2"]}
+   "birdpack.goose.honk": {
+      "sounds": [
+         "honk"
+      ]
+   },
+   "birdpack.crane.chirp": {
+      "sounds": [
+         "crane1"
+      ]
+   },
+   "birdpack.bluejay.chirp": {
+      "sounds": [
+         "bluejay1",
+         "bluejay2"
+      ]
+   },
+   "birdpack.toucan.chirp": {
+      "sounds": [
+         "toucan1",
+         "toucan2"
+      ]
+   },
+   "birdpack.flamingo.chirp": {
+      "sounds": [
+         "flamingo1",
+         "flamingo2"
+      ]
+   },
+   "birdpack.owl.who": {
+      "sounds": [
+         "who1",
+         "who2"
+      ]
+   },
+   "bd.dragging1": {
+      "sounds": [
+         "custom/dragging1"
+      ]
+   },
+   "bd.dragging2": {
+      "sounds": [
+         "custom/dragging2"
+      ]
+   },
+   "bd.closing-vault-door": {
+      "sounds": [
+         "custom/closing-vault-door"
+      ]
+   },
+   "bd.drawbridge-rattling": {
+      "sounds": [
+         "custom/drawbridge-rattling"
+      ]
+   },
+   "bd.thud": {
+      "sounds": [
+         "custom/thud"
+      ]
+   }
 }
