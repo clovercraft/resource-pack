@@ -4,6 +4,65 @@
 		"layer0": "minecraft:item/paper"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 79561}, "model": "item/ergeox/ergeox_hat" }
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "clovercraft:item/guild_license"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "clovercraft:item/skills/author"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "clovercraft:item/skills/dungeoneer"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "clovercraft:item/skills/erupt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "clovercraft:item/skills/knowledge"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "clovercraft:item/skills/rebirth"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7
+			},
+			"model": "clovercraft:item/skills/void_crafting"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 8
+			},
+			"model": "clovercraft:item/skills/void_crafting_plus"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 9
+			},
+			"model": "clovercraft:item/skills/void_storage"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 10
+			},
+			"model": "clovercraft:item/skills/wanderer"
+		}
 	]
 }
