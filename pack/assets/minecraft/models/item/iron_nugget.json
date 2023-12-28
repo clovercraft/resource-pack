@@ -189,6 +189,24 @@
                 "custom_model_data": 114
             },
             "model": "item/server/golfball/golfball_yellow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 201
+            },
+            "model": "item/server/awards/bronze_trophy"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 202
+            },
+            "model": "item/server/awards/silver_trophy"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 203
+            },
+            "model": "item/server/awards/gold_trophy"
         }
     ]
 }
