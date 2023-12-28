@@ -1,11 +1,9 @@
-name: Production Release
+name: Development Release
 
 on:
-  pull_request:
-    types:
-      - closed
+  push:
     branches:
-      - production
+        - dev
   workflow_dispatch:
 jobs:
   build:
@@ -24,4 +22,4 @@ jobs:
         run: node bin/release.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RELEASE_BRANCH: production
+          RELEASE_BRANCH: dev
