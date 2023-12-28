@@ -7,6 +7,7 @@ class Releaser {
 
     constructor(filepath = '', env) {
         this.token = env.GITHUB_TOKEN
+        this.branch = env.RELEASE_BRANCH
         this.octokit = new Octokit({ auth: this.token })
         this.resource = path.resolve(filepath)
     }
@@ -20,7 +21,7 @@ class Releaser {
                 owner: 'clovercraft',
                 repo: 'resource-pack',
                 tag_name: newTag,
-                target_commitish: 'production',
+                target_commitish: this.branch,
                 name: newTag,
                 draft: false,
                 prerelease: false,
@@ -75,8 +76,21 @@ class Releaser {
             }
         )
         let latest = response[0].name.split('.');
-        latest[latest.length - 1]++
-        return latest.join('.')
+        let major = latest[0];
+        let minor = latest[1];
+        let patch = latest[2];
+        let build = 1;
+        if (latest.length == 4) {
+            build = latest[3];
+        }
+
+        if (this.branch !== 'production') {
+            build++
+            return [major, minor, patch, build].join('.');
+        } else {
+            patch++
+            return [major, minor, patch].join('.');
+        }
     }
 
     async api(method, endpoint, options) {
