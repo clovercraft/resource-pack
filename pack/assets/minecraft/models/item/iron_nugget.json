@@ -206,7 +206,7 @@
             "predicate": {
                 "custom_model_data": 203
             },
-            "model": "item/server/awards/gold_trophy"
+            "model": "item/server/awards/golden_trophy"
         }
     ]
 }
