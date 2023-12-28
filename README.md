@@ -1,6 +1,6 @@
 # Clovercraft SMP Resource Pack
 
-[![Create Release](https://github.com/clovercraft/resource-pack/actions/workflows/release.yml/badge.svg?branch=production&event=workflow_dispatch)](https://github.com/clovercraft/resource-pack/actions/workflows/release.yml)
+[![Production Build ](https://github.com/clovercraft/resource-pack/actions/workflows/release.yml/badge.svg?branch=production)](https://github.com/clovercraft/resource-pack/actions/workflows/release.yml) [![Dev Build](https://github.com/clovercraft/resource-pack/actions/workflows/dev-release.yml/badge.svg?branch=dev)](https://github.com/clovercraft/resource-pack/actions/workflows/dev-release.yml)
 
 This repository contains the latest version of the official resource pack maintained for the Clovercraft server, as well as the tooling required to automatically build the resource pack file.
 
