@@ -63,6 +63,96 @@
 				"custom_model_data": 10
 			},
 			"model": "clovercraft:item/skills/wanderer"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 20
+			},
+			"model": "clovercraft:item/awards/blue_ribbon"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 21
+			},
+			"model": "clovercraft:item/awards/bronze_crown"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 22
+			},
+			"model": "clovercraft:item/awards/bronze_medal"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 23
+			},
+			"model": "clovercraft:item/awards/bronze_present"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 24
+			},
+			"model": "clovercraft:item/awards/bronze_trophy"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 25
+			},
+			"model": "clovercraft:item/awards/golden_crown"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 26
+			},
+			"model": "clovercraft:item/awards/golden_medal"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 27
+			},
+			"model": "clovercraft:item/awards/golden_present"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 28
+			},
+			"model": "clovercraft:item/awards/golden_trophy"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 29
+			},
+			"model": "clovercraft:item/awards/green_ribbon"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 30
+			},
+			"model": "clovercraft:item/awards/red_ribbon"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 31
+			},
+			"model": "clovercraft:item/awards/silver_crown"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 32
+			},
+			"model": "clovercraft:item/awards/silver_medal"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 33
+			},
+			"model": "clovercraft:item/awards/silver_present"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 34
+			},
+			"model": "clovercraft:item/awards/silver_trophy"
 		}
 	]
 }
