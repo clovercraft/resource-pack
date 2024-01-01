@@ -8,7 +8,7 @@
 			"predicate": {
 				"custom_model_data": 1
 			},
-			"model": "clovercraft:item/guild_license"
+			"model": "clovercraft:item/guild/license"
 		},
 		{
 			"predicate": {
@@ -153,6 +153,24 @@
 				"custom_model_data": 34
 			},
 			"model": "clovercraft:item/awards/silver_trophy"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 41
+			},
+			"model": "clovercraft:item/guild/job"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 42
+			},
+			"model": "clovercraft:item/guild/job_unclaimed"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 43
+			},
+			"model": "clovercraft:item/guild/job_claimed"
 		}
 	]
 }

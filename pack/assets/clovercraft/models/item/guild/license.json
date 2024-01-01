@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "clovercraft:item/guild_license"
+		"layer0": "clovercraft:item/guild/license"
 	}
 }
