@@ -8,7 +8,25 @@
 			"predicate": {
 				"custom_model_data": 1
 			},
-			"model": "clovercraft:item/guild_license"
+			"model": "clovercraft:item/guild/license"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100
+			},
+			"model": "clovercraft:item/guild/job"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 101
+			},
+			"model": "clovercraft:item/guild/job_unclaimed"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 102
+			},
+			"model": "clovercraft:item/guild/job_claimed"
 		},
 		{
 			"predicate": {
