@@ -171,6 +171,12 @@
 				"custom_model_data": 43
 			},
 			"model": "clovercraft:item/guild/job_claimed"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 51
+			},
+			"model": "clovercraft:item/creature_crate"
 		}
 	]
 }
