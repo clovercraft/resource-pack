@@ -1,0 +1,27 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/potion_overlay",
+        "layer1": "item/potion"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 100
+            },
+            "model": "clovercraft:item/drinks/mead"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 101
+            },
+            "model": "clovercraft:item/drinks/wine"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 102
+            },
+            "model": "clovercraft:item/drinks/rum"
+        }
+    ]
+}

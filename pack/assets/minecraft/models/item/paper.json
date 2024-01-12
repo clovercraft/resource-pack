@@ -177,6 +177,78 @@
 				"custom_model_data": 51
 			},
 			"model": "clovercraft:item/creature_crate"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 101
+			},
+			"model": "clovercraft:item/pirate/pirate_map"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 102
+			},
+			"model": "clovercraft:item/keys/simple_key"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 103
+			},
+			"model": "clovercraft:item/keys/golden_key"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 104
+			},
+			"model": "clovercraft:item/keys/silver_key"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 201
+			},
+			"model": "clovercraft:item/runes/blue_anchor"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 202
+			},
+			"model": "clovercraft:item/runes/blue_ascend"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 203
+			},
+			"model": "clovercraft:item/runes/blue_rebirth"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 204
+			},
+			"model": "clovercraft:item/runes/gold_crown"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 205
+			},
+			"model": "clovercraft:item/runes/gold_extend"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 206
+			},
+			"model": "clovercraft:item/runes/green_amplify"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 207
+			},
+			"model": "clovercraft:item/runes/green_empower"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 208
+			},
+			"model": "clovercraft:item/runes/green_shelter"
 		}
 	]
 }
