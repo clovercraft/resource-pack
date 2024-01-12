@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "clovercraft:item/runes/blue_rebirth"
+    }
+}
