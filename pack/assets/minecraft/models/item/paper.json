@@ -249,6 +249,12 @@
 				"custom_model_data": 208
 			},
 			"model": "clovercraft:item/runes/green_shelter"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 209
+			},
+			"model": "clovercraft:item/runes/red_bind"
 		}
 	]
 }
