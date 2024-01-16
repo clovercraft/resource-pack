@@ -174,12 +174,6 @@
 		},
 		{
 			"predicate": {
-				"custom_model_data": 51
-			},
-			"model": "clovercraft:item/creature_crate"
-		},
-		{
-			"predicate": {
 				"custom_model_data": 101
 			},
 			"model": "clovercraft:item/pirate/pirate_map"
@@ -255,6 +249,12 @@
 				"custom_model_data": 209
 			},
 			"model": "clovercraft:item/runes/red_bind"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 801
+			},
+			"model": "clovercraft:item/msq/trellite"
 		}
 	]
 }
