@@ -204,6 +204,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 106
+			},
+			"model": "clovercraft:item/keys/icard_blue"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 201
 			},
 			"model": "clovercraft:item/runes/blue_anchor"
