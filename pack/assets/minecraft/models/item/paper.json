@@ -198,6 +198,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 105
+			},
+			"model": "clovercraft:item/keys/security_pass"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 201
 			},
 			"model": "clovercraft:item/runes/blue_anchor"
