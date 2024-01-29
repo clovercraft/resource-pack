@@ -5,8 +5,8 @@
 		32
 	],
 	"textures": {
-		"1": "clovercraft:item/awards/bronze_present",
-		"particle": "clovercraft:item/awards/bronze_present"
+		"1": "clovercraft:item/awards/golden_present",
+		"particle": "clovercraft:item/awards/golden_present"
 	},
 	"elements": [
 		{
