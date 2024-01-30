@@ -204,6 +204,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 106
+			},
+			"model": "clovercraft:item/keys/icard_blue"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 201
 			},
 			"model": "clovercraft:item/runes/blue_anchor"
@@ -261,6 +267,60 @@
 				"custom_model_data": 801
 			},
 			"model": "clovercraft:item/msq/trellite"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1002
+			},
+			"model": "clovercraft:item/skills/author_dark"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1003
+			},
+			"model": "clovercraft:item/skills/dungeoneer_dark"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1004
+			},
+			"model": "clovercraft:item/skills/erupt_dark"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1005
+			},
+			"model": "clovercraft:item/skills/knowledge_dark"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1006
+			},
+			"model": "clovercraft:item/skills/rebirth_dark"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1007
+			},
+			"model": "clovercraft:item/skills/void_crafting_dark"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1008
+			},
+			"model": "clovercraft:item/skills/void_crafting_plus_dark"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1009
+			},
+			"model": "clovercraft:item/skills/void_storage_dark"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1010
+			},
+			"model": "clovercraft:item/skills/wanderer_dark"
 		}
 	]
 }
