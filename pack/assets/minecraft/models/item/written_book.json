@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/written_book"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "clovercraft:item/guild/quest_book"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "clovercraft:item/guild/quest_book_unclaimed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "clovercraft:item/guild/quest_book_completed"
+    }
+  ]
+}
