@@ -210,6 +210,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 107
+			},
+			"model": "clovercraft:item/pirate/pirate_map_three"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 201
 			},
 			"model": "clovercraft:item/runes/blue_anchor"

@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "clovercraft:item/keys/key_two"
+        "layer0": "clovercraft:item/pirate/map_three"
     }
 }
