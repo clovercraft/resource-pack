@@ -2,9 +2,9 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "minecraft:font/titlescreen.png",
+            "file": "clovercraft:font/titlescreen.png",
             "height": 128,
-            "ascent": 40,
+            "ascent": 30,
             "chars": [
                 "\uE000"
             ]
