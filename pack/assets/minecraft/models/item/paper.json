@@ -8,331 +8,145 @@
 			"predicate": {
 				"custom_model_data": 1
 			},
-			"model": "clovercraft:item/guild/license"
+			"model": "clovercraft:item/awards/blue_ribbon"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 2
 			},
-			"model": "clovercraft:item/skills/author"
+			"model": "clovercraft:item/awards/red_ribbon"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 3
 			},
-			"model": "clovercraft:item/skills/dungeoneer"
+			"model": "clovercraft:item/awards/green_ribbon"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 4
 			},
-			"model": "clovercraft:item/skills/erupt"
+			"model": "clovercraft:item/awards/bronze_crown"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 5
 			},
-			"model": "clovercraft:item/skills/knowledge"
+			"model": "clovercraft:item/awards/bronze_medal"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 6
 			},
-			"model": "clovercraft:item/skills/rebirth"
+			"model": "clovercraft:item/awards/bronze_present"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 7
 			},
-			"model": "clovercraft:item/skills/void_crafting"
+			"model": "clovercraft:item/awards/bronze_trophy"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 8
 			},
-			"model": "clovercraft:item/skills/void_crafting_plus"
+			"model": "clovercraft:item/awards/golden_crown"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 9
 			},
-			"model": "clovercraft:item/skills/void_storage"
+			"model": "clovercraft:item/awards/golden_medal"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 10
 			},
-			"model": "clovercraft:item/skills/wanderer"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 20
-			},
-			"model": "clovercraft:item/awards/blue_ribbon"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 21
-			},
-			"model": "clovercraft:item/awards/bronze_crown"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 22
-			},
-			"model": "clovercraft:item/awards/bronze_medal"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 23
-			},
-			"model": "clovercraft:item/awards/bronze_present"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 24
-			},
-			"model": "clovercraft:item/awards/bronze_trophy"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 25
-			},
-			"model": "clovercraft:item/awards/golden_crown"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 26
-			},
-			"model": "clovercraft:item/awards/golden_medal"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 27
-			},
 			"model": "clovercraft:item/awards/golden_present"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 28
+				"custom_model_data": 11
 			},
 			"model": "clovercraft:item/awards/golden_trophy"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 29
-			},
-			"model": "clovercraft:item/awards/green_ribbon"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 30
-			},
-			"model": "clovercraft:item/awards/red_ribbon"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 31
+				"custom_model_data": 12
 			},
 			"model": "clovercraft:item/awards/silver_crown"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 32
+				"custom_model_data": 13
 			},
 			"model": "clovercraft:item/awards/silver_medal"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 33
+				"custom_model_data": 14
 			},
 			"model": "clovercraft:item/awards/silver_present"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 34
+				"custom_model_data": 15
 			},
 			"model": "clovercraft:item/awards/silver_trophy"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 41
-			},
-			"model": "clovercraft:item/guild/job"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 42
-			},
-			"model": "clovercraft:item/guild/job_unclaimed"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 43
-			},
-			"model": "clovercraft:item/guild/job_claimed"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 44
-			},
-			"model": "clovercraft:item/guild/coin"
-		},
-		{
-			"predicate": {
 				"custom_model_data": 101
 			},
-			"model": "clovercraft:item/pirate/pirate_map"
+			"model": "clovercraft:item/icons/job_claimed"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 102
 			},
-			"model": "clovercraft:item/keys/simple_key"
+			"model": "clovercraft:item/icons/job_unclaimed"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 103
 			},
-			"model": "clovercraft:item/keys/golden_key"
+			"model": "clovercraft:item/icons/job"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 104
 			},
-			"model": "clovercraft:item/keys/silver_key"
+			"model": "clovercraft:item/icons/quest_book_completed"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 105
 			},
-			"model": "clovercraft:item/keys/security_pass"
+			"model": "clovercraft:item/icons/quest_book_unclaimed"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 106
 			},
-			"model": "clovercraft:item/keys/icard_blue"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 107
-			},
-			"model": "clovercraft:item/pirate/pirate_map_three"
+			"model": "clovercraft:item/icons/quest_book"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 201
 			},
-			"model": "clovercraft:item/runes/blue_anchor"
+			"model": "clovercraft:item/keys/golden_key"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 202
 			},
-			"model": "clovercraft:item/runes/blue_ascend"
+			"model": "clovercraft:item/keys/silver_key"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 203
 			},
-			"model": "clovercraft:item/runes/blue_rebirth"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 204
-			},
-			"model": "clovercraft:item/runes/gold_crown"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 205
-			},
-			"model": "clovercraft:item/runes/gold_extend"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 206
-			},
-			"model": "clovercraft:item/runes/green_amplify"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 207
-			},
-			"model": "clovercraft:item/runes/green_empower"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 208
-			},
-			"model": "clovercraft:item/runes/green_shelter"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 209
-			},
-			"model": "clovercraft:item/runes/red_bind"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 801
-			},
-			"model": "clovercraft:item/msq/trellite"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1002
-			},
-			"model": "clovercraft:item/skills/author_dark"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1003
-			},
-			"model": "clovercraft:item/skills/dungeoneer_dark"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1004
-			},
-			"model": "clovercraft:item/skills/erupt_dark"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1005
-			},
-			"model": "clovercraft:item/skills/knowledge_dark"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1006
-			},
-			"model": "clovercraft:item/skills/rebirth_dark"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1007
-			},
-			"model": "clovercraft:item/skills/void_crafting_dark"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1008
-			},
-			"model": "clovercraft:item/skills/void_crafting_plus_dark"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1009
-			},
-			"model": "clovercraft:item/skills/void_storage_dark"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1010
-			},
-			"model": "clovercraft:item/skills/wanderer_dark"
+			"model": "clovercraft:item/keys/simple_key"
 		}
 	]
 }
