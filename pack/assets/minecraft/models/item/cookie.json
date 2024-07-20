@@ -8,13 +8,13 @@
       "predicate": {
         "custom_model_data": 1
       },
-      "model": "clovercraft:item/chocobar/chocolate_bar"
+      "model": "clovercraft:item/food/chocolate_bar"
     },
     {
       "predicate": {
         "custom_model_data": 2
       },
-      "model": "clovercraft:item/tropical_poboy"
+      "model": "clovercraft:item/food/tropical_poboy"
     }
   ]
 }
