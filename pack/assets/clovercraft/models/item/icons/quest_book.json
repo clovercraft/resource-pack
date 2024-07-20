@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "clovercraft:item/guild/quest_book"
+        "layer0": "clovercraft:item/icons/quest_book"
     }
 }

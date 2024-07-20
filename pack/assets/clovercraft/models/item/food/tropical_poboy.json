@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "clovercraft:item/tropical_poboy"
+        "layer0": "clovercraft:item/food/tropical_poboy"
     }
 }

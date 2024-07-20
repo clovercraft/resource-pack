@@ -5,8 +5,8 @@
 		32
 	],
 	"textures": {
-		"0": "clovercraft:chocobar/chocobar",
-		"particle": "clovercraft:chocobar/chocobar"
+		"0": "clovercraft:item/food/chocobar",
+		"particle": "clovercraft:item/food/chocobar"
 	},
 	"elements": [
 		{
