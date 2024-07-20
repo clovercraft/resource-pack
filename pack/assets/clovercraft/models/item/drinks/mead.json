@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "clovercraft:item/drinks/mead",
-        "layer1": "clovercraft:item/drinks/mead"
-    }
-}

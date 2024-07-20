@@ -9,19 +9,19 @@
             "predicate": {
                 "custom_model_data": 100
             },
-            "model": "clovercraft:item/drinks/mead"
+            "model": "clovercraft:item/food/mead"
         },
         {
             "predicate": {
                 "custom_model_data": 101
             },
-            "model": "clovercraft:item/drinks/wine"
+            "model": "clovercraft:item/food/wine"
         },
         {
             "predicate": {
                 "custom_model_data": 102
             },
-            "model": "clovercraft:item/drinks/rum"
+            "model": "clovercraft:item/food/rum"
         }
     ]
 }
