@@ -147,6 +147,42 @@
 				"custom_model_data": 203
 			},
 			"model": "clovercraft:item/keys/simple_key"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 204
+			},
+			"model": "clovercraft:item/keys/ac_ticket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 300
+			},
+			"model": "clovercraft:item/golfball/golfball_blue"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 301
+			},
+			"model": "clovercraft:item/golfball/golfball_green"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 302
+			},
+			"model": "clovercraft:item/golfball/golfball_orange"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 303
+			},
+			"model": "clovercraft:item/golfball/golfball_pink"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 304
+			},
+			"model": "clovercraft:item/golfball/golfball_red"
 		}
 	]
 }
