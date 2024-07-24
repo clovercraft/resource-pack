@@ -8,13 +8,43 @@
       "predicate": {
         "custom_model_data": 1
       },
-      "model": "clovercraft:item/chocobar/chocolate_bar"
+      "model": "clovercraft:item/food/chocolate_bar"
     },
     {
       "predicate": {
         "custom_model_data": 2
       },
-      "model": "clovercraft:item/tropical_poboy"
+      "model": "clovercraft:item/food/tropical_poboy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "clovercraft:item/food/cotton_candy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "clovercraft:item/food/popcorn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "clovercraft:item/food/ice_cream_vanilla"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "clovercraft:item/food/ice_cream_chocolate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "clovercraft:item/food/ice_cream_strawberry"
     }
   ]
 }

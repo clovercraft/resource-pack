@@ -1,1 +1,0 @@
-{"textures":{"0":"modelengine:entity/peacock"},"elements":[{"from":[2.5,8.579545,11.821883],"to":[13.5,8.579545,20.321884],"faces":{"up":{"uv":[4.875,2.125,2.125,0.0],"tintindex":0,"rotation":0,"texture":"#0"},"down":{"uv":[7.625,0.0,4.875,2.125],"tintindex":0,"rotation":0,"texture":"#0"}},"rotation":{"origin":[8.0,4.0,10.156855],"angle":-45.0,"axis":"x"}}]}
