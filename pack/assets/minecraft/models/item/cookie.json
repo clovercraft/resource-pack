@@ -45,6 +45,12 @@
         "custom_model_data": 7
       },
       "model": "clovercraft:item/food/ice_cream_strawberry"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "clovercraft:item/food/sweetroll"
     }
   ]
 }
