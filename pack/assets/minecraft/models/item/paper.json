@@ -189,6 +189,12 @@
 				"custom_model_data": 304
 			},
 			"model": "clovercraft:item/golfball/golfball_red"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400
+			},
+			"model": "clovercraft:item/cosmetics/goose_hat_white"
 		}
 	]
 }
