@@ -1,5 +1,9 @@
 {
     "parent": "minecraft:item/generated",
+    "texture_size": [
+        256,
+        256
+    ],
     "textures": {
         "layer0": "clovercraft:item/icons/clover"
     }
