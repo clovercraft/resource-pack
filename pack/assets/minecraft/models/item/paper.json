@@ -195,6 +195,12 @@
 				"custom_model_data": 400
 			},
 			"model": "clovercraft:item/cosmetics/goose_hat_white"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401
+			},
+			"model": "clovercraft:item/cosmetics/balloons"
 		}
 	]
 }
