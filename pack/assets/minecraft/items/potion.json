@@ -1,0 +1,21 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/potion",
+            "tints": [
+                {
+                    "type": "minecraft:potion",
+                    "default": -13083194
+                }
+            ]
+        },
+        "entries": [
+            {"threshold": 100, "model": { "type": "model", "model": "clovercraft:item/food/mead" }},
+            {"threshold": 101, "model": { "type": "model", "model": "clovercraft:item/food/wine" }},
+            {"threshold": 102, "model": { "type": "model", "model": "clovercraft:item/food/rum" }}
+        ]
+    }
+}

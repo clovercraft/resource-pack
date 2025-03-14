@@ -1,6 +1,6 @@
 {
-    "pack": {
-        "pack_format": 34,
-        "description": "CC Server Resources"
-    }
+  "pack": {
+    "pack_format": 46,
+    "description": "CC Server Resources"
+  }
 }

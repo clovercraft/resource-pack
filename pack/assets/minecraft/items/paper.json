@@ -1,0 +1,45 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/paper"
+        },
+        "entries": [
+            {"threshold": 1, "model": { "type": "model", "model": "clovercraft:item/awards/blue_ribbon" }},
+            {"threshold": 2, "model": { "type": "model", "model": "clovercraft:item/awards/red_ribbon" }},
+            {"threshold": 3, "model": { "type": "model", "model": "clovercraft:item/awards/green_ribbon" }},
+            {"threshold": 4, "model": { "type": "model", "model": "clovercraft:item/awards/bronze_crown" }},
+            {"threshold": 5, "model": { "type": "model", "model": "clovercraft:item/awards/bronze_medal" }},
+            {"threshold": 6, "model": { "type": "model", "model": "clovercraft:item/awards/bronze_present" }},
+            {"threshold": 7, "model": { "type": "model", "model": "clovercraft:item/awards/bronze_trophy" }},
+            {"threshold": 8, "model": { "type": "model", "model": "clovercraft:item/awards/golden_crown" }},
+            {"threshold": 9, "model": { "type": "model", "model": "clovercraft:item/awards/golden_medal" }},
+            {"threshold": 10, "model": { "type": "model", "model": "clovercraft:item/awards/golden_present" }},
+            {"threshold": 11, "model": { "type": "model", "model": "clovercraft:item/awards/golden_trophy" }},
+            {"threshold": 12, "model": { "type": "model", "model": "clovercraft:item/awards/silver_crown" }},
+            {"threshold": 13, "model": { "type": "model", "model": "clovercraft:item/awards/silver_medal" }},
+            {"threshold": 14, "model": { "type": "model", "model": "clovercraft:item/awards/silver_present" }},
+            {"threshold": 15, "model": { "type": "model", "model": "clovercraft:item/awards/silver_trophy" }},
+            {"threshold": 101, "model": { "type": "model", "model": "clovercraft:item/icons/job_claimed" }},
+            {"threshold": 102, "model": { "type": "model", "model": "clovercraft:item/icons/job_unclaimed" }},
+            {"threshold": 103, "model": { "type": "model", "model": "clovercraft:item/icons/job" }},
+            {"threshold": 104, "model": { "type": "model", "model": "clovercraft:item/icons/quest_book_completed" }},
+            {"threshold": 105, "model": { "type": "model", "model": "clovercraft:item/icons/quest_book_unclaimed" }},
+            {"threshold": 106, "model": { "type": "model", "model": "clovercraft:item/icons/quest_book" }},
+            {"threshold": 107, "model": { "type": "model", "model": "clovercraft:item/icons/clover" }},
+            {"threshold": 201, "model": { "type": "model", "model": "clovercraft:item/keys/golden_key" }},
+            {"threshold": 202, "model": { "type": "model", "model": "clovercraft:item/keys/silver_key" }},
+            {"threshold": 203, "model": { "type": "model", "model": "clovercraft:item/keys/simple_key" }},
+            {"threshold": 204, "model": { "type": "model", "model": "clovercraft:item/keys/ac_ticket" }},
+            {"threshold": 300, "model": { "type": "model", "model": "clovercraft:item/golfball/golfball_blue" }},
+            {"threshold": 301, "model": { "type": "model", "model": "clovercraft:item/golfball/golfball_green" }},
+            {"threshold": 302, "model": { "type": "model", "model": "clovercraft:item/golfball/golfball_orange" }},
+            {"threshold": 303, "model": { "type": "model", "model": "clovercraft:item/golfball/golfball_pink" }},
+            {"threshold": 304, "model": { "type": "model", "model": "clovercraft:item/golfball/golfball_red" }},
+            {"threshold": 400, "model": { "type": "model", "model": "clovercraft:item/cosmetics/goose_hat_white" }},
+            {"threshold": 401, "model": { "type": "model", "model": "clovercraft:item/cosmetics/balloons" }}
+        ]
+    }
+}

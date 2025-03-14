@@ -1,0 +1,20 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/cookie"
+        },
+        "entries": [
+            {"threshold": 1, "model": { "type": "model", "model": "clovercraft:item/food/chocolate_bar" }},
+            {"threshold": 2, "model": { "type": "model", "model": "clovercraft:item/food/tropical_poboy" }},
+            {"threshold": 3, "model": { "type": "model", "model": "clovercraft:item/food/cotton_candy" }},
+            {"threshold": 4, "model": { "type": "model", "model": "clovercraft:item/food/popcorn" }},
+            {"threshold": 5, "model": { "type": "model", "model": "clovercraft:item/food/ice_cream_vanilla" }},
+            {"threshold": 6, "model": { "type": "model", "model": "clovercraft:item/food/ice_cream_chocolate" }},
+            {"threshold": 7, "model": { "type": "model", "model": "clovercraft:item/food/ice_cream_strawberry" }},
+            {"threshold": 8, "model": { "type": "model", "model": "clovercraft:item/food/sweetroll" }}
+        ]
+    }
+}
